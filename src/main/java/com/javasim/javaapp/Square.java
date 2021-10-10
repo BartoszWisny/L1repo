@@ -163,7 +163,6 @@ public class Square extends Thread implements MouseListener {
       }
     }
   }
-
   
   public void mousePressed(MouseEvent event) {
     active = false;
