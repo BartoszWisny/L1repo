@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 /**
- * Program do prezentacji dzia³ania w¹tków - g³owna klasa MyFrame.
+ * Program do prezentacji dzialania watkow - glowna klasa MyFrame.
  */
 
 public class MyFrame {
@@ -12,7 +12,7 @@ public class MyFrame {
   public static int blockSize = 40;
     
   /**
-   * G³ówna funkcja programu wyœwietlaj¹ca podstawowe GUI.
+   * Glowna funkcja programu wyswietlajaca podstawowe GUI.
    */
   
   public static void main(final String[] args) {

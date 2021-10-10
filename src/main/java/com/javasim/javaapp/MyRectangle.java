@@ -5,7 +5,7 @@ import java.awt.Panel;
 import java.util.Random;
 
 /**
- * Klasa MyRectangle odpowiada za wygenerowanie planszy i uruchamia w¹tki.
+ * Klasa MyRectangle odpowiada za wygenerowanie planszy i uruchamia watki.
  */
 
 public class MyRectangle extends Panel {
@@ -44,7 +44,7 @@ public class MyRectangle extends Panel {
   }
   
   /**
-   * Funkcja start uruchamia w¹tki.
+   * Funkcja start uruchamia watki.
    */
 
   public synchronized void start() {

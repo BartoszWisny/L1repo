@@ -8,7 +8,7 @@ import java.awt.event.MouseListener;
 import java.util.Random;
 
 /**
- * Klasa Square zmienia kolor danego kwadratu i umo¿liwia zatrzymanie w¹tku. 
+ * Klasa Square zmienia kolor danego kwadratu i umozliwia zatrzymanie watku. 
  */
 
 public class Square extends Thread implements MouseListener {
@@ -52,8 +52,8 @@ public class Square extends Thread implements MouseListener {
   }
 
   /**
-   * Konstruktor Kolor odpowiada za zmianê koloru kwadratu wewn¹trz 
-   * na œredni¹ kolorów z kwadratów dooko³a do niego przylegaj¹cych. 
+   * Konstruktor Kolor odpowiada za zmiane koloru kwadratu wewnatrz 
+   * na srednia kolorow z kwadratow dookola do niego przylegajacych. 
    */  
   
   public Color averageColor(int tmp) {
@@ -101,7 +101,7 @@ public class Square extends Thread implements MouseListener {
   }
 
   /**
-   * Funkcja run odpowida za dzia³anie w¹tków. 
+   * Funkcja run odpowida za dzialanie watkow. 
    */
   
   public void run() {
